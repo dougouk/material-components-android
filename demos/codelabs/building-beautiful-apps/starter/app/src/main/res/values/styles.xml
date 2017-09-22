@@ -25,12 +25,10 @@
     </style>
 
     <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
-        <item name="android:background">?attr/colorPrimary</item>
         <item name="contentInsetStart">12dp</item>
         <item name="titleTextAppearance">@style/TextAppearance.Shrine.Logo</item>
     </style>
 
-    <!--
     <style name="Widget.Shrine.CollapsingToolbar" parent="">
         <item name="collapsedTitleTextAppearance">@style/TextAppearance.Shrine.Logo</item>
         <item name="contentScrim">?attr/colorPrimary</item>
@@ -54,7 +52,6 @@
         <item name="android:layout_gravity">top</item>
         <item name="android:orientation">vertical</item>
     </style>
-    -->
 
     <style name="TextAppearance.Shrine.Logo" parent="TextAppearance.AppCompat.Display3">
         <item name="android:textAllCaps">true</item>
@@ -62,4 +59,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+  <style name="ThemeOverlay.Shrine.BottomNavigation" parent="">
+    <item name="colorPrimary">?attr/colorAccent</item>
+  </style>
 </resources>
